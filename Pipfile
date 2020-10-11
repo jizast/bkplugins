@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+mysqlclient = "==1.4.4"
+requests = "==2.22.0"
+celery = "==3.1.25"
+django-celery = "==3.2.1"
+python-json-logger = "==0.1.7"
+whitenoise = "==3.3.0"
+six = "==1.11.0"
+httplib2 = "==0.9.1"
+MarkupSafe = "==1.0"
+setuptools = "*"
+Django = "==2.2.6"
+Mako = "==1.0.6"
+
+[requires]
+python_version = "3.6"
